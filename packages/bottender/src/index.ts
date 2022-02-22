@@ -102,3 +102,6 @@ export { default as withTyping } from './plugins/withTyping';
 
 export { createServer } from '@bottender/express';
 export { default as initializeServer } from './initializeServer';
+export { default as Server } from './server/Server';
+export { default as DevServer } from './server/DevServer';
+export * as Shared from './shared';

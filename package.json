@@ -31,7 +31,9 @@
   "workspaces": [
     "packages/*"
   ],
-  "dependencies": {},
+  "dependencies": {
+    "yarn": "^1.22.17"
+  },
   "devDependencies": {
     "@types/jest": "^27.0.2",
     "@types/prettier": "^2.4.1",
